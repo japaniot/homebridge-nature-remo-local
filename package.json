@@ -1,0 +1,18 @@
+{
+  "name": "homebridge-nature-remo-local",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homekit"
+  ],
+  "licenses": [
+    {
+      "name": "cc by-nc-sa 4.0",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
+  "engines": {
+    "homebridge": ">= 0.4.0"
+  }
+}
