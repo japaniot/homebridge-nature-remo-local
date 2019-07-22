@@ -37,7 +37,7 @@ Homebridge plugin for Nature Remo using local APIs.
 
 * `instance`: The instance name of Nature Remo, can be ignored if there is only
   one device.
-* `learnButton`: Whether to show the "learn signal" button.
+* `learnButton`: Whether to show the "learn signal" button, default is `false`.
 * `signals`: The IR signals.
 * `on`: The signals to send when switch is turned on.
 * `off`: The signals to send when switch is turned off.
