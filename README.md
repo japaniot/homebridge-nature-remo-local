@@ -9,7 +9,7 @@ Homebridge plugin for Nature Remo using local APIs.
   {
     "accessory": "NatureRemo",
     "name": "TV",
-    "address": "Remo-XXXX.local",
+    "instance": "Remo-XXXX",
     "learnButton": false,
     "signals" {
       "power": [...],
@@ -35,7 +35,8 @@ Homebridge plugin for Nature Remo using local APIs.
 ]
 ```
 
-* `address`: The address of Nature Remo, will search automatically if not set.
+* `instance`: The instance name of Nature Remo, can be ignored if there is only
+  one device.
 * `learnButton`: Whether to show the "learn signal" button.
 * `signals`: The IR signals.
 * `on`: The signals to send when switch is turned on.

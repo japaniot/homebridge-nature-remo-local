@@ -14,5 +14,8 @@
   ],
   "engines": {
     "homebridge": ">= 0.4.0"
+  },
+  "dependencies": {
+    "node-dns-sd": "0.4.0"
   }
 }
